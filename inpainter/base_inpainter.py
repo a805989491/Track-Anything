@@ -358,7 +358,7 @@ if __name__ == '__main__':
 	# ----------------------------------------------
 	# 1/3: set checkpoint and device
 	checkpoint = '/ssd1/gaomingqi/checkpoints/E2FGVI-HQ-CVPR22.pth'
-	device = 'cuda:4'
+	device = 'cuda:0'
 	# 2/3: initialise inpainter
 	base_inpainter = BaseInpainter(checkpoint, device)
 	# 3/3: inpainting (frames: numpy array, T, H, W, 3; masks: numpy array, T, H, W)
