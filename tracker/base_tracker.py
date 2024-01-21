@@ -155,7 +155,7 @@ if __name__ == '__main__':
     # how to use
     # ------------------------------------------------------------------------------------
     # 1/4: set checkpoint and device
-    device = 'cuda:2'
+    device = 'cuda:0'
     XMEM_checkpoint = '/ssd1/gaomingqi/checkpoints/XMem-s012.pth'
     # SAM_checkpoint= '/ssd1/gaomingqi/checkpoints/sam_vit_h_4b8939.pth'
     # model_type = 'vit_h'
